@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="style/xsl/rss.xsl"?>
+<rss version="1.0">
+	<channel>
+		<item>
+			<title>Boss Page!</title>
+			<description>Here you can read about life and nutrition</description>
+			<link>http://project3.jovansomborski.com</link>
+		</item>
+		<item>
+			<title>Nutrition Page!</title>
+			<description>Here you can check our current products</description>
+			<link>http://project3.jovansomborski.com/index.php?page=2</link>
+		</item>
+		<item>
+			<title>Contact Page!</title>
+			<description>Contact us!</description>
+			<link>http://project3.jovansomborski.com/index.php?page=3</link>
+		</item>
+		<item>
+			<title>Author Page!</title>
+			<description>Contact us!</description>
+			<link>http://project3.jovansomborski.com/index.php?page=4</link>
+		</item>
+		<item>
+			<title>Login Page!</title>
+			<description>Admin page!</description>
+			<link>http://project3.jovansomborski.com/index.php?page=5</link>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,21 @@
+<IfModule mod_expires.c>
+ExpiresActive On 
+ExpiresDefault "access plus 1 month"
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year"
+# Images
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+</IfModule>
+#zastita konekcije
+<Files ~ "\.(inc)$">
+order allow,deny
+deny from all
+</Files>
+ErrorDocument 400 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 401 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 403 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 404 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 500 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 502 http://project3.jovansomborski.com/index.php?page=16
+ErrorDocument 504 http://project3.jovansomborski.com/index.php?page=16
