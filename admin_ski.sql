@@ -33,12 +33,6 @@ CREATE TABLE IF NOT EXISTS `admin` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
 
---
--- Dumping data for table `admin`
---
-
-INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(7, 'baklava@baklava.com', '4d3b197f0e2da23c67f00d3858ad69b0');
 
 -- --------------------------------------------------------
 
